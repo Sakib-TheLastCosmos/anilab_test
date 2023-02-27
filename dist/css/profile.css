@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rajdhani&display=swap');
+
+
+
+.main__middle {
+   width: 100%;
+}
+
+.main__right {
+   display: none;
+}
+
+.main__left {
+   display: none;
+}
+
+.profile__cont {
+   width: 80%;
+   margin: 30px auto 0 auto;
+}
+
+
+
+
+.profile_cover {
+   width: 100%;
+   margin: 30px auto 0 auto;
+}
+
+.cover_img {
+   height: 30vh;
+   background-size: cover;
+   background-position: center;
+   border-radius: 8px;
+   border: 0.5px solid #d5d6da;
+}
+
+
+
+.profile-bottom__cont {
+   background: var(--white-weak);
+   width: 100%;
+   margin: 25px auto;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px var(--shadow-color);
+   height: calc(100vh - 100px);
+}
+
+.profile_bottom__top {
+   height: 150px;
+   width: 100%;
+   border-bottom: 0.5px solid #d5d6da;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+
+.profile {
+   height: 100px;
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+}
+
+.profile_img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+
+.profile main {
+   margin-left: 20px !important;
+}
+
+.profile main h2 {
+   font-family: "Mate SC";
+   font-size: 32px;
+}
+
+.profile main p {
+   font-family: "Quicksand";
+}
+
+.profile_edit {
+   margin-right: 30px;
+}
+
+.profile_edit button {
+   background: none;
+   padding: 7.5px 20px;
+   border: 1px solid var(--navy-blue);
+   border-radius: 24px;
+   display: flex;
+   align-items: center;
+}
+
+.profile_edit button svg {
+   width: 20px;
+   height: 20px;
+   fill: var(--navy-blue);
+}
+
+.profile_edit button span {
+   font-family: "Quicksand";
+   margin-left: 10px;
+   font-size: 18px;
+   color: var(--navy-blue);
+}
+
+.profile_edit button:hover {
+   background-color: var(--navy-blue);
+   transition: .1s ease-in-out;
+}
+
+.profile_edit button:hover span {
+   color: #fff;
+}
+
+.profile_edit button:hover svg {
+   fill: #fff;
+}
+
+
+
+
+
+/* BOTTOM */
+.profile__info {
+   display: flex;
+   height: calc(100vh - 250px);
+}
+
+
+.profile__info > .left {
+   width: 30%;
+   border-right: 0.5px solid #d5d6da;
+   overflow: scroll;
+}
+
+.profile__info > .left::-webkit-scrollbar {width: 0px !important; }
+
+.left__conts {
+   width: 90%;
+   margin: 0 auto;
+   border-bottom: 0.5px solid #d5d6da;
+   font-size: 1.05rem;
+}
+
+.left__conts:last-child {
+   border: none;
+}
+
+.left__conts {
+   /* margin-top: 10px; */
+   padding: 20px 0;
+}
+
+.left__conts div {
+   margin-top: 10px;
+}
+
+
+.left__conts div span:nth-child(1) {
+   font-weight: 600;
+   color: var(--container-black-weak-hover--2);
+}
+
+.left__conts div span:nth-child(2) {
+   font-weight: 400;
+   color: var(--dark-grey);
+}
+
+
+
+
+
+.profile__info {
+
+}
+
+
+.profile__info > .right {
+   width: 70%;
+   overflow: scroll;
+}
+
+.profile__info > .right .posts {
+   width: 100%;
+}
+
+.profile__info > .right .posts ul {
+   width: 100%;
+}
+
+.profile__info .post {
+   width: 92.5%;
+   max-width: 800px;
+   /* border: 0.5px solid #d5d6da;
+   box-shadow: none; */
+   margin: 0 auto 40px auto; 
+}
+
+.profile__info .post .post__right header > .left .right h2 {
+   font-size: 1.29rem !important;
+}

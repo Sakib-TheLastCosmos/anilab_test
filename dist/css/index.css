@@ -1,0 +1,243 @@
+.main__left {
+   width: 22.5%;
+   background: var(--container-white);
+   display: block;
+}
+
+.main__middle {
+   width: 55%;
+}
+
+.main__right {
+   width: 22.5%;
+   background: var(--container-white);
+   color: var(--dark-grey);
+   /* display: block; */
+}
+
+
+
+
+
+.left__top figure {
+   width: 50%;
+   min-width: 160px;
+   margin: 20px;
+}
+
+
+.left__bottom {
+   height: 80%;
+   overflow: auto;
+}
+
+.left__bottom > div {
+   margin-left: 20px;
+}
+
+.left_bottom_bars header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left_bottom_bars header button {
+   margin-right: 20px;
+   background: none;
+   color: #25a7c5;
+   font-weight: 500;
+   font-size: 13px;
+}
+
+
+.left_bottom_bars header p {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 0.9rem;
+   color: var(--medium-grey);
+   letter-spacing: 0.75px;
+}
+
+.left_bottom_bars main {
+   margin-left: 10px;
+}
+
+.left_bottom_bars main ul {
+   margin-top: 10px;
+}
+
+.left_bottom_bars main ul li {
+   height: 55px;
+   margin-top: 3px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   justify-content: space-between;
+}
+
+.left_bottom_bars main ul li .left {
+   display: flex;
+   align-items: center;
+}
+
+.left_bottom_bars main ul li .right .blue-dot {
+   width: 8px;
+   height: 8px;
+   margin-right: 20px;
+}
+
+.left_bottom_bars main ul li:hover {
+   background: var(--container-white-hover);
+   transition: linear .1s;
+}
+
+.left_bottom_bars main ul li .left figure {
+   width: 37.5px;
+   height: 37.5px;
+   border-radius: 8px;
+}
+
+.left_bottom_bars main ul li .left p {
+   margin-left: 10px;
+   font-size: 0.95rem;
+}
+
+
+.left_bottom_bars:nth-child(2) {
+   margin-top: 30px;
+}
+
+.left_bottom_bars footer button {
+   background: none;
+    color: var(--light-grey);
+    border: 1px solid var(--container-black-weak-hover);
+    padding: 8px 0;
+    width: 70%;
+    margin-left: calc(15% - 10px);
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+.left_bottom_bars footer button:hover {
+   border: 1px solid var(--container-black);
+   background: var(--container-black-hover);
+   color: var(--container-white);
+   transition: ease .1s;
+}
+
+
+.no-your-reviews-msg {
+   font-size: 13px;
+   color: var(--medium-grey);
+   margin-right: 15px;
+   cursor: auto !important;
+}
+
+.no-your-reviews-msg:hover {
+   background: var(--container-white) !important;
+}
+
+
+
+
+.active_panel {
+   height: 90px;
+}
+
+.active_panel ul {
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: space-around; */
+   align-items: center;
+   gap: 17.5px;
+   margin-left: 30px;
+}
+
+
+.active_panel ul li {
+   width: 55px;
+   margin: 0 15px;
+   cursor: pointer;
+}
+
+.active_panel ul li:hover {
+   transform: scale(1.035);
+   transition: linear .1s;
+}
+
+.active_panel ul li figure {
+   width: 55px;
+   height: 55px;
+   border-radius: 50%;
+}
+
+.active_panel ul li figure.update {
+   border: 2px solid var(--navy-blue);
+   padding: 1px;
+}
+
+.active_panel ul li p {
+   text-align: center;
+   margin-top: 5px;
+   font-size: 0.9rem;
+   text-transform: capitalize;
+}
+
+
+
+.create_post_panel {
+   margin-top: 20px;
+}
+
+
+.create_post__cont {
+   background: var(--container-white);
+   width: 80%;
+   height: 75px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 16px;
+   max-width: 740px;
+}
+
+.create_post__cont figure {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+
+.create_post__cont input {
+   width: calc(100% - 200px);
+   margin: auto 15px auto 25px;
+   font-family: "Nunito";
+   font-size: 1rem;
+   padding: 7.5px 10px;
+   border-radius: 12px;
+   border: 0.5px solid #888888;
+   background: var(--background-white);
+   cursor: pointer;
+}
+
+.create_post__cont input:hover,
+.create_post__cont input:focus {
+   border: 0.5px solid #2fa4e7;
+}
+
+.create_post__cont button {
+   background: none;
+}
+
+.create_post__cont button svg {
+   width: 30px;
+   height: 30px;
+   fill: var(--navy-blue);
+}
+
+
+.middle__bottom .posts .post {
+   max-width: 800px;
+}

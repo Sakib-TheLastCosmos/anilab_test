@@ -1,0 +1,605 @@
+/* DARK MODE TESTING STYLES */
+::-webkit-scrollbar-thumb {
+   background: var(--dark-grey);
+}
+
+body {
+   background: var(--background-black);
+}
+
+.main__left {
+   background: var(--container-black);
+}
+
+.left_bottom_bars header p {
+   color: var(--light-grey);
+}
+
+.left_bottom_bars main ul li {
+   color: var(--container-white);
+}
+
+.left_bottom_bars main ul li:hover {
+   background: var(--container-black-hover);
+}
+
+.no-your-reviews-msg {
+   color: var(--light-grey-dark) !important;
+}
+
+.no-your-reviews-msg:hover {
+   background: var(--container-black) !important;
+}
+
+
+
+.main__middle {
+   background: var(--background-black);
+}
+
+.middle__top nav ul {
+   background: var(--container-black-weak);
+}
+
+.middle__top nav ul li svg {
+   fill: var(--light-grey-dark);
+}
+
+
+.active_panel ul li p {
+   color: var(--container-white);
+}
+
+
+
+.create_post__cont {
+   background: var(--container-black-weak);
+}
+
+.create_post__cont input {
+   border: black;
+   background: var(--dark-grey);
+}
+
+.create_post__cont input:hover {
+   border: none;
+   background: #444444;
+}
+
+.create_post__cont button svg {
+   fill: var(--light-grey);
+}
+
+
+.post {
+   background: var(--container-black-weak);
+   box-shadow: 0 3px 6px var(--container-black);
+   color: #fff;
+}
+
+.post__right header > .left .right h2 {
+   color: var(--container-white);
+   font-family: "Open Sans";
+}
+
+.post__right header > .left .right p {
+   color: var(--light-grey-dark);
+}
+
+
+.post__right header .right button svg {
+   fill: var(--container-white);
+}
+
+.post__right header .right button:hover {
+   background: var(--container-black);
+}
+
+
+.post_options_dropdown {
+   background-color: var(--container-black-weak);
+   box-shadow: 0 1px 3px var(--container-black);
+}
+
+.post_options_dropdown ul li a {
+   color: var(--container-white);
+}
+
+.post_options_dropdown ul li:hover {
+   background: var(--container-black-weak-hover);
+}
+
+.post_options_dropdown ul li svg {
+   fill: var(--paste-blue);
+}
+
+.post_options_dropdown ul li:last-child a {
+   color: #F41B6B !important;
+}
+
+.post_options_dropdown ul li:last-child svg {
+   fill: #F41B6B;
+}
+
+
+
+.post__right main a {
+   color: var(--light-grey);
+}
+
+.see-more__btn {
+   color: var(--light-grey-dark);
+}
+
+
+.anime_info {
+   color: var(--container-white);
+}
+
+.author .author__right h4 {
+   color: #fff;
+   font-family: "Open Sans";
+}
+
+.author .author__right p {
+   font-size: 0.7rem;
+   color: var(--light-grey-dark);
+}
+
+
+
+.footer__bottom .left button {
+   /* box-shadow: 0 1px 5px var(--container-black); */
+}
+
+.footer__bottom .right button svg {
+   fill: #F41B6B;
+}
+
+
+.footer__bottom .right button span {
+   color: #F41B6B;
+}
+
+
+
+
+.main__right {
+   background: var(--container-black);
+}
+
+.mode {
+   background: var(--container-black-weak-hover);
+}
+
+.mode:hover {
+   background: var(--container-black-weak-hover--2);
+}
+
+.mode svg {
+   fill: var(--container-white);
+}
+
+
+.profile_bar {
+   background: var(--container-black-weak-hover);
+   box-shadow: 0 2px 4px var(--container-black);
+   color: var(--container-white);
+}
+
+.profile_bar:hover {
+   background: var(--container-black-weak-hover--2);
+}
+
+.profile_bar_cont:hover .profile_bar {
+   background: var(--container-black-weak-hover);
+}
+
+.profile_bar_dropdown {
+   background: var(--container-black-weak-hover);
+}
+
+.profile_bar_dropdown ul li:hover {
+   background: var(--container-black-weak-hover--2);
+}
+
+.profile_bar_dropdown ul li span {
+   color: var(--container-white);
+}
+
+.profile_bar_dropdown ul li svg {
+   fill: var(--paste-blue);
+}
+
+
+.main__right .bottom > div main {
+   background: var(--container-black-weak);
+   color: var(--light-grey-dark);
+   box-shadow: 0 2px 4px var(--container-black);
+}
+
+
+.notification:hover {
+   background: var(--container-black-weak-hover--2);
+   color: #fff;
+}
+
+
+.admin_msg header,
+.quote header {
+   background: var(--container-black-weak-hover--2) !important;
+   color: #fff !important;
+}
+
+.admin_msg header .right h2,
+.quote header .right h2 {
+   font-weight: 400;
+}
+
+.red-text {
+   font-weight: 500;
+}
+
+
+
+
+
+
+
+.popup__container {
+   background: rgba(0, 0, 0, 0.75);
+}
+
+
+.post_big__cont {
+   background: var(--container-black-weak);
+}
+
+
+
+
+
+
+
+.add-review-popup__box-1,
+.add-review-popup__box-2 {
+   background: var(--background-black);
+}
+
+.add-review-popup__box-1 main input {
+   background: var(--container-black-weak) !important;
+   color: var(--container-white);
+}
+
+.add-review-popup__box-1 main input:hover {
+   background: var(--container-black-weak-hover);
+}
+
+.add-review-popup__box-1 main ul li {
+   background: var(--container-black-weak) !important;
+   box-shadow: 0 2px 3px var(--container-black) !important;
+}
+
+.add-review-popup__box-1 main ul li .bottom h4 {
+   color: var(--container-white);
+   font-weight: 200;
+}
+
+.add-review-popup__box-1 main ul li .bottom p {
+   color: var(--light-grey-dark);
+}
+
+
+.add-review-popup__box-2 header .anime {
+   background: var(--container-black-weak);
+   border: 0.5px dotted var(--container-black);
+}
+
+.add-review-popup__box-2 header .anime div h3 {
+   color: var(--container-white);
+}
+
+.add-review-popup__box-2 header .anime div p {
+   color: var(--light-grey-dark);
+}
+
+.rate > label:before {
+   fill: #444444 !important;
+
+}
+
+.add-review-popup__box-2 main input,
+.add-review-popup__box-2 main textarea {
+   border: 1px solid var(--container-black);
+   background: var(--container-black-weak);
+   color: var(--background-white);
+}
+
+.add-review-popup__box-2 main input:hover,
+.add-review-popup__box-2 main input:focus,
+.add-review-popup__box-2 main textarea:hover,
+.add-review-popup__box-2 main textarea:focus {
+   border: 1px solid black;
+   background: var(--container-black-weak-hover);
+}
+
+.uploader label {
+   background: var(--container-black);
+   border: 1px dashed var(--background-black);
+ }
+
+
+
+.add-review-popup__box-2 footer button {
+   background: var(--orange);
+   box-shadow: none;
+}
+
+
+.friends__cont {
+   box-shadow: 0 2px 5px var(--background-black);
+   background: var(--container-black);
+}
+
+
+.friends__cont .top input {
+   background: var(--container-black-weak);
+   color: var(--container-white);
+}
+
+.friends__cont .top input:hover,
+.friends__cont .top input:focus {
+   background: var(--container-black-weak-hover);
+}
+
+.friends__cont .top button {
+   box-shadow: none;
+}
+
+.friends__cont .bottom ul li {
+   box-shadow: 0 1px 6px var(--background-black);
+   background: var(--container-black-weak);
+}
+
+.friends__cont .bottom ul li:hover {
+   background: var(--container-black-weak-hover);
+}
+
+.friends__cont .bottom ul li .left div h3 {
+   color: var(--container-white);
+   font-weight: 400;
+}
+
+.friends__cont .bottom ul li .left div p {
+   color: var(--paste-blue);
+}
+
+.friends__cont .bottom ul li .right svg {
+   fill: var(--light-grey);
+}
+
+.friends__cont .bottom ul li .right svg:hover {
+   background: var(--dark-grey);
+}
+
+
+
+
+
+
+
+
+
+
+/* ANIMES CONT */
+.animes__cont,
+.saved__cont,
+.about__cont {
+   background: var(--container-black);
+   box-shadow: none;
+}
+
+.animes__cont input,
+.saved__cont .top input {
+   background: var(--container-black-weak);
+   color: #fff;
+}
+
+.animes__cont input:hover,
+.saved__cont .top input:hover {
+   background: var(--container-black-weak-hover);
+}
+
+.animes__cont .animes-1 ul li {
+   box-shadow: 0 1px 6px var(--background-black);
+   background: var(--container-black-weak);
+}
+
+.animes__cont .animes-1 ul li .bottom h4 {
+   color: var(--container-white);
+   font-weight: 200;
+}
+
+.animes__cont .animes-1 ul li .bottom p {
+   color: var(--light-grey-dark);
+}
+
+
+
+.animes__cont .anime header .middle .top h3 {
+   color: #fff;
+   font-weight: 500;
+}
+
+.animes__cont .anime header .middle .bottom .rating div {
+   color: var(--background-white);
+   border: 1px solid var(--background-black);
+   background: var(--container-black-weak);
+}
+
+
+.animes__cont .anime header .middle .bottom .rating div span:nth-child(3) {
+   font-size: 0.8rem;
+   color: var(--light-grey);
+}
+
+
+.anime header .middle .bottom .others p {
+   color: var(--container-white);
+   font-weight: 400;
+}
+
+.anime header .right ul li {
+   color: var(--light-grey-dark);
+   background: none !important;
+}
+
+
+.anime > main {
+   color: var(--container-white);
+   font-weight: 400;
+}
+
+
+.animes__cont footer header h3 {
+   color: var(--light-grey);
+}
+
+
+.review {
+   background: var(--container-black-weak) !important;
+   box-shadow: 0 2px 3px var(--background-black) !important;
+}
+
+
+.review .bottom .right h3 {
+   color: var(--container-white) !important;
+   font-weight: 400 !important;
+}
+
+.review .bottom .right p {
+  color: var(--paste-blue) !important;
+}
+
+
+
+
+
+
+
+
+.saved__cont > .bottom > div > h3 {
+   color: var(--light-grey);
+   font-weight: 400;
+}
+
+
+
+
+
+.about__cont main p {
+   color: var(--light-grey-dark);
+}
+
+.about__cont footer .top {
+   color: var(--container-white);
+}
+
+
+.about__cont footer .middle .profile {
+   background: var(--container-black-weak);
+   box-shadow: 0 1px 2px var(--background-black);
+}
+
+.about__cont footer .middle .profile .right h3 {
+   color: #fff;
+   font-weight: 400;
+}
+
+.about__cont footer .middle .profile .right p {
+   font-weight: 400;
+}
+
+.about__cont footer .bottom h3 {
+   color: var(--light-grey);
+   font-weight: 400;
+}
+
+.links li {
+   border: 0.5px solid var(--background-black);
+}
+
+
+
+
+
+.cover_img {
+   border: 0.5px solid var(--background-black);
+}
+
+.profile-bottom__cont {
+   background: var(--container-black);
+   box-shadow: 0 2px 5px var(--background-black);
+}
+
+.profile_bottom__top {
+   border-bottom: 0.5px solid var(--container-black-weak-hover);
+}
+
+.profile main h2 {
+   color: #fff;
+   font-weight: 400;
+}
+
+.profile main p {
+   color: var(--paste-blue);
+}
+
+.profile_edit button {
+   border: 1px solid var(--paste-blue);
+}
+
+.profile_edit button svg {
+   fill: var(--paste-blue);
+}
+
+.profile_edit button span {
+   color: var(--paste-blue);
+}
+
+.profile_edit button:hover {
+   background-color: var(--paste-blue);
+   border: 1px solid var(--paste-blue);
+   transition: .1s ease-in-out;
+}
+
+.profile_edit button:hover span {
+   color: black;
+   font-weight: 600;
+}
+
+.profile_edit button:hover svg {
+   fill: black;
+}
+
+.profile__info > .left {
+   border-right: 0.5px solid var(--container-black-weak-hover);
+}
+
+.left__conts {
+   border-bottom: 0.5px solid var(--container-black-weak-hover);
+}
+
+.left__conts div span:nth-child(1) {
+   color: var(--container-white);
+   font-weight: 400;
+}
+
+.left__conts div span:nth-child(2) {
+   font-weight: 400;
+   color: var(--light-grey);
+}
+
+.left__conts .top-picks {
+   color: var(--light-grey);
+}

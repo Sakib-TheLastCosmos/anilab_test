@@ -1,0 +1,160 @@
+/* .main__left {
+   display: none;
+} */
+
+.about__cont {
+   width: 80%;
+   height: 90%;
+   margin: 30px auto 0 auto;
+   border-radius: 12px;
+   box-shadow: 0 2px 5px var(--shadow-color);
+   background: var(--white-weak);
+}
+
+
+.about__cont header {
+   padding: 30px 0;
+}
+
+.about__cont header figure {
+   width: 250px;
+   margin: 0 auto;
+}
+
+
+.about__cont main {
+   width: 100%;
+   height: 200px;
+   display: flex;
+   height: 150px !important;
+   align-items: center;
+   padding: 0 50px;
+   margin: 30px 0;
+}
+
+.about__cont main .blue-line {
+   width: 8px;
+   height: 100%;
+   background: var(--navy-blue);
+   margin-right: 10px;
+}
+
+.about__cont main p {
+   color: var(--dark-grey);
+   display: block;
+   font-size: 1.1rem;
+}
+
+
+.about__cont footer {
+   padding: 10px 40px;
+   margin-top: 55px;
+}
+
+/* .about__cont footer .top table tr td:nth-child(3) {
+   margin-left: 10px;
+} */
+
+.about__cont footer .middle .profile {
+   display: flex;
+   align-items: center;
+   /* padding: 5px; */
+   background: var(--background-white);
+   box-shadow: 0 1px 2px var(--container-white);
+   width: 230px;
+   border-radius: 18px;
+   margin-top: 20px;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.about__cont footer .middle .profile:hover {
+   transform: scale(1.01);
+   transition: ease .1s;
+}
+
+.about__cont footer .middle .profile .left figure {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.about__cont footer .middle .profile .right {
+   margin-left: 10px;
+}
+
+
+.about__cont footer .middle .profile .right h3 {
+   font-weight: 600;
+   font-size: 1.1rem;
+}
+
+.about__cont footer .middle .profile .right p {
+   font-size: 0.7rem;
+   margin-top: 2px;
+   color: var(--pink);
+   font-weight: 600;
+}
+
+
+
+.about__cont footer .bottom {
+   margin-top: 30px;
+   text-align: center;
+}
+
+.about__cont footer .bottom h3 {
+   text-transform: uppercase;
+   color: var(--dark-grey);
+   letter-spacing: 3px;
+   font-size: 1rem;
+}
+
+.about__cont footer .bottom .links__cont {
+   margin-top: 12.5px;
+}
+
+.links {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.links li {
+   padding: 12px;
+   border-radius: 50%;
+   border: 0.5px solid var(--light-grey);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   background: var(--background-white);
+}
+
+.links li:hover {
+   background: #fff;
+   transform: scale(1.02);
+   transition: ease .1s;
+}
+
+.links li a {
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   height: 100%;
+   width: 100%;
+   color: black;
+}
+
+/* .link li a:active {
+   text-decoration: none;
+   background: none;
+} */
+
+.links li svg {
+   width: 25px;
+   height: 25px;
+}
